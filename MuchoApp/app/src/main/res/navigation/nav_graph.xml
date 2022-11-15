@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.muchoapp.View.ui.fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_bebidasFragment"
+            app:destination="@id/bebidasFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_ensaladasFragment"
+            app:destination="@id/ensaladasFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_pizzasFragment"
+            app:destination="@id/pizzasFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_platosFragment"
+            app:destination="@id/platosFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_postresFragment"
+            app:destination="@id/postresFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_sopasFragment"
+            app:destination="@id/sopasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bebidasFragment"
+        android:name="com.example.muchoapp.View.ui.fragments.BebidasFragment"
+        android:label="fragment_bebidas"
+        tools:layout="@layout/fragment_bebidas" />
+    <fragment
+        android:id="@+id/ensaladasFragment"
+        android:name="com.example.muchoapp.View.ui.fragments.EnsaladasFragment"
+        android:label="EnsaladasFragment" />
+    <fragment
+        android:id="@+id/pizzasFragment"
+        android:name="com.example.muchoapp.View.ui.fragments.PizzasFragment"
+        android:label="PizzasFragment" />
+    <fragment
+        android:id="@+id/platosFragment"
+        android:name="com.example.muchoapp.View.ui.fragments.PlatosFragment"
+        android:label="PlatosFragment" />
+    <fragment
+        android:id="@+id/postresFragment"
+        android:name="com.example.muchoapp.View.ui.fragments.PostresFragment"
+        android:label="PostresFragment" />
+    <fragment
+        android:id="@+id/sopasFragment"
+        android:name="com.example.muchoapp.View.ui.fragments.SopasFragment"
+        android:label="SopasFragment" />
+</navigation>

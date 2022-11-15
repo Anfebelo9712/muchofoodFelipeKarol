@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MuchoApp</string>
+    <string name="enviar">Enviar</string>
+    <string name="home">Home</string>
+    <string name="buscar">Buscar</string>
+    <string name="places">Comprar</string>
+    <string name="Settings">Settings</string>
+    <string name="Shop">Shop</string>
+    <string name="title_activity_recover">recover_activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

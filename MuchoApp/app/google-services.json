@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "333125813354",
+    "project_id": "muchoapp-b41ad",
+    "storage_bucket": "muchoapp-b41ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333125813354:android:dde82ad656073239727613",
+        "android_client_info": {
+          "package_name": "com.example.muchoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333125813354-qr43la29na2olkkm17r3ugveish73d24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_jThxMzyMI_TaY-0RHrwW9C9jrGPqcsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333125813354-qr43la29na2olkkm17r3ugveish73d24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
